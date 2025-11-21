@@ -1,0 +1,32 @@
+# Dependencies
+# node_modules is included for Netlify deployment
+
+# Cache directories - these are regenerated
+node_modules/.cache/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+dist/
